@@ -100,4 +100,6 @@ EXPOSE 8080
 
 STOPSIGNAL SIGTERM
 
+USER 1001
+
 CMD ["nginx", "-g", "daemon off;"]
